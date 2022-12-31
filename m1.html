@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Test</title>
+    <link rel="stylesheet" href="Style_Form.css">
+</head>
+
+<body>
+    <form method="POST" action="./envoi.php">
+        <table border="5">
+            <tr>
+                <td>
+                <td> Selectionez votre BTS
+                    <select name="section[]">
+                        <option value=""></option>
+                        <option value="SIO"> SIO </option>
+                        <option value="NRC"> NRC </option>
+                        <option value="CI"> CI </option>
+                        <option value="CG"> CG </option>
+                    </select>
+                </td>
+                </td>
+            </tr>
+        </table>
+        <input type="submit" id="soumettre" name="soumettre" value="Envoyer">
+    </form> 
+</body>
